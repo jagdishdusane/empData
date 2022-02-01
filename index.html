@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Login</title>
+     <link rel="stylesheet" href="./css/login.css">
+     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"
+          integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg=="
+          crossorigin="anonymous"></script>
+</head>
+
+<body>
+     <div class="container">
+          <div class="form-container">
+               <div class="signin-signup">
+                    <form type="Submit" class="sign-in-form">
+                         <h2 class="title">User Login</h2>
+                         <div class="input-field">
+                              <i class="fas fa-user"></i>
+                              <input type="text" placeholder="Username" class="user-name">
+                         </div>
+                         <div class="input-field">
+                              <i class="fas fa-lock"></i>
+                              <input type="password" placeholder="Password" class="user-password">
+                         </div>
+
+                         <a class="user-login btn solid">Login</a>
+                    </form>
+
+                    <form action="" class="admin-form">
+                         <h2 class="title">Admin Login</h2>
+                         <div class="input-field">
+                              <i class="fas fa-user"></i>
+                              <input type="text" placeholder="Username" class="admin-name" required>
+                         </div>
+
+                         <div class="input-field">
+                              <i class="fas fa-lock"></i>
+                              <input type="password" placeholder="Password" class="admin-password">
+                         </div>
+                         <a class="admin-login btn solid">Login</a>
+
+                    </form>
+               </div>
+          </div>
+          <div class="panels-container">
+               <div class="panel left-panel">
+                    <div class="content">
+                         <h3>New here?</h3>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nisi optio atque animi
+                              soluta reprehenderit.</p>
+                         <button class="btn transparent" id="sign-up-btn">Admin-Login</button>
+                    </div>
+
+                    <img src="./images/undraw_maker_launch_crhe.svg" class="image">
+               </div>
+               <div class="panel right-panel">
+                    <div class="content">
+                         <h3>One of us ?</h3>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nisi optio atque
+                              animi soluta reprehenderit.</p>
+                         <button class="btn transparent" id="sign-in-btn">User-Login</button>
+
+                    </div>
+                    <img src="./images/undraw_responsive_6c8s.svg" class="image">
+               </div>
+
+          </div>
+          <script defer src="./js/login.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.all.min.js"></script>
+</body>
+
+</html>
